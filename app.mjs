@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api/classData', (req, res) => {
-    res.sendFile(join(__dirname, 'stuData.json'))
+    res.sendFile(join(__dirname, 'game.json'))
   })
 
 app.listen(3000)
